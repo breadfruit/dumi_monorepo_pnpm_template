@@ -61,7 +61,8 @@ npx lerna create pro2  --dependencies typescript --yes
 根目录tsconfig.base.json
 
 ```json
-"paths": {
+{
+  "paths": {
       "@@/*": [
         ".dumi/tmp/*"
       ],
@@ -72,16 +73,18 @@ npx lerna create pro2  --dependencies typescript --yes
         "packages/pro2/src/index.ts"
       ]
     }
+}
 ```
 
 dumi配置文件.dumirc.ts
 
 ```json
-
-alias: {
+{
+  "alias": {
     "pro1": path.resolve(__dirname, 'packages/pro1/src/index.ts'),
     "pro2": path.resolve(__dirname, 'packages/pro1/src/index.ts'),
   }
+}
 ```
 
 ## 配置dumi在monorepo模式下的路由
@@ -132,7 +135,7 @@ export default defineConfig({
 
 link填的是atomDirs配置的type，且路由需要加s，/pro1s
 
-```tsx
+```yaml
 ---
 title: 函数集合
 link: pro1
