@@ -4,7 +4,7 @@
 
 ## 初始化项目
 
-![Untitled](/1.png)
+![Untitled](/publish/1.png)
 
 ```jsx
 # 通过官方工具创建项目，选择你需要的模板
