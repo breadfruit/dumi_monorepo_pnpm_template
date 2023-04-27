@@ -4,7 +4,7 @@
 
 ## 初始化项目
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed261987-9a4d-4883-8c0b-ae16ec92ba7e/Untitled.png)
+![Untitled](/1.png)
 
 ```jsx
 # 通过官方工具创建项目，选择你需要的模板

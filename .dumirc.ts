@@ -3,8 +3,8 @@ import path from 'path'
 
 export default defineConfig({
   outputPath: 'doc-public',
-  base: '/nbd-lib/',
-  publicPath: process.env.NODE_ENV === 'production' ? '/nbd-lib/' : '/',
+  base: '/good',
+  publicPath: '/publish/',
   locales: [{ id: 'zh-CN', name: '中文' }],
   themeConfig: {
     name: 'dumi',
