@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "module": "es2015",
+    "target": "es5",
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "declaration": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": true,
+    "noUnusedParameters": false,
+    "strictPropertyInitialization": false,
+    "sourceMap": false,
+    "preserveConstEnums": true,
+    "declarationDir": "./",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "jsx": "react",
+    "paths": {
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "pro1": [
+        "packages/pro1/src/index.ts"
+      ],
+      "pro2": [
+        "packages/pro2/src/index.ts"
+      ]
+    }
+  },
+  "include": [
+    ".dumi/**/*",
+    ".dumirc.ts",
+    "src/**/*.ts",
+    "packages"
+  ],
+  "exclude": [
+    "node_modules",
+    "package/**/src/**/__tests__"
+  ],
+}

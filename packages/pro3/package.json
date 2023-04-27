@@ -1,0 +1,33 @@
+{
+  "name": "pro3",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "breadfruit <1845252982@qq.com>",
+  "license": "ISC",
+  "main": "lib/pro3.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry-npm.myscrm.cn/repository/pkg/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breadfruit/test_git.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/pro3.test.js"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/breadfruit/test_git/issues"
+  },
+  "homepage": "https://github.com/breadfruit/test_git#readme"
+}
